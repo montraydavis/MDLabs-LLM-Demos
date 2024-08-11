@@ -26,7 +26,9 @@ Embark on these fantastic learning adventures! 🗺️
    - Master natural language interactions with APIs!
    - Become a wizard of AI-driven development! 🧙‍♂️
 
-2. 🔜 More exciting projects coming soon! Stay tuned! 📡
+2. 🔗 **Automation Testing with Natural Language** [View](dotnet/src/SemanticKernel-Playwright-NLPTests/README.md)
+    - Control Playwright with Natural Language (English)
+3. 🔜 More exciting projects coming soon! Stay tuned! 📡
 
 ## 🚀 Getting Started
 
