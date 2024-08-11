@@ -1,2 +1,0 @@
-# SemanticKernel-Api-Execution.ipynb
-
