@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{FF87B0E1-F334-41D9-97AC-0773CF9EFDCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC9E05E1-4BB7-4A12-AE9E-BE46BF561B01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SemanticKernel-Playwright-NLPTests", "SemanticKernel-Playwright-NLPTests", "{0BD1003B-CAF7-403E-A6B1-15C9EF2F69DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel_ApiExecution", "SemanticKernel-Playwright-NLPTests\SemanticKernel-Playwright-NLPTests.csproj", "{F11D2EC6-221B-4C70-8C76-9F3B17416009}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F11D2EC6-221B-4C70-8C76-9F3B17416009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11D2EC6-221B-4C70-8C76-9F3B17416009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11D2EC6-221B-4C70-8C76-9F3B17416009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11D2EC6-221B-4C70-8C76-9F3B17416009}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC9E05E1-4BB7-4A12-AE9E-BE46BF561B01} = {FF87B0E1-F334-41D9-97AC-0773CF9EFDCE}
+		{0BD1003B-CAF7-403E-A6B1-15C9EF2F69DC} = {DC9E05E1-4BB7-4A12-AE9E-BE46BF561B01}
+		{F11D2EC6-221B-4C70-8C76-9F3B17416009} = {0BD1003B-CAF7-403E-A6B1-15C9EF2F69DC}
+	EndGlobalSection
+EndGlobal
