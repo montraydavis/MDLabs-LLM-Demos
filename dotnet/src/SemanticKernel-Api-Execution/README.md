@@ -3,6 +3,8 @@
 ## Introduction
 This project implements a mock version of the Twitter API using Microsoft's Semantic Kernel. It demonstrates how to create a natural language interface for interacting with a simulated Twitter-like service, showcasing the power of AI-driven API interactions.
 
+> [View Example `Semantic Kernel` responses in notebook here.](SemanticKernel-Api-Execution.ipynb)
+
 ## Dependencies
 - Microsoft.SemanticKernel (version 1.17.1)
 - .NET (8.0)
