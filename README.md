@@ -21,6 +21,8 @@ Unleash the power of these incredible LLM platforms! ✨
 
 Embark on these fantastic learning adventures! 🗺️
 
+### Semantic Kernel
+
 1. 🐦 **Twitter API Mock with Semantic Kernel** [View](dotnet/src/SemanticKernel-Api-Execution/README.md)
    - Automate the Twitter API using the power of Semantic Kernel!
    - Master natural language interactions with APIs!
@@ -28,7 +30,14 @@ Embark on these fantastic learning adventures! 🗺️
 
 2. 🔗 **Automation Testing with Natural Language** [View](dotnet/src/SemanticKernel-Playwright-NLPTests/README.md)
     - Control Playwright with Natural Language (English)
-3. 🔜 More exciting projects coming soon! Stay tuned! 📡
+
+### TypeChat.NET
+
+1. 📁 **Unstructured Log Extraction** [View](https://github.com/montraydavis/MDLabs-LLM-Demos/blob/main/dotnet/src/TypeChatSK-UnstructuredLogExtraction/README.md)
+   - Automate the process of extracting insights from large unstructured or aggregated text!
+   - Make sense of long exception logs automatically with AI.
+
+🔜 More exciting projects coming soon! Stay tuned! 📡
 
 ## 🚀 Getting Started
 
