@@ -22,7 +22,7 @@ Unleash the power of these incredible LLM platforms! ✨
 Embark on these fantastic learning adventures! 🗺️
 
 1. 🐦 **Twitter API Mock with Semantic Kernel** [View](dotnet/src/SemanticKernel-Api-Execution/README.md)
-   - Create a mock Twitter API using the power of Semantic Kernel!
+   - Automate the Twitter API using the power of Semantic Kernel!
    - Master natural language interactions with APIs!
    - Become a wizard of AI-driven development! 🧙‍♂️
 
