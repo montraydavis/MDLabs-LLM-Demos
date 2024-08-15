@@ -23,6 +23,13 @@ Embark on these fantastic learning adventures! 🗺️
 
 ### Semantic Kernel (C# .NET)
 
+#### Ollama
+
+1. **Automation Test Generation** [View](dotnet/src/Ollama-SemanticKernel-AutomationTestGeneration/README.md)
+   - Generate C# Playwright Page Object Models for use with your automation test suite using natural language (English).
+
+#### OpenAI
+
 1. 🐦 **Twitter API Mock with Semantic Kernel** [View](dotnet/src/SemanticKernel-Api-Execution/README.md)
    - Automate the Twitter API using the power of Semantic Kernel!
    - Master natural language interactions with APIs!
