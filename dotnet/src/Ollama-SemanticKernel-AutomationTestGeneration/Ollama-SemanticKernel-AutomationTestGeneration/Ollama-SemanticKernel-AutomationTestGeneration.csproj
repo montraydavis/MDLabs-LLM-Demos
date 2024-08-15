@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Ollama_SemanticKernel_AutomationTestGeneration</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="CopyResources" AfterTargets="Build">
+    <ItemGroup>
+        <ResourceFiles Include="..\resources\**\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(ResourceFiles)" 
+          DestinationFolder="$(OutputPath)\resources\%(RecursiveDir)" />
+  </Target>
+
+  <ItemGroup>
+    <None Include="..\resources\prompts\**\*">
+      <Link>Resources\Prompts\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.17.1" />
+    <PackageReference Include="OllamaSharp" Version="2.1.1" />
+  </ItemGroup>
+</Project>
