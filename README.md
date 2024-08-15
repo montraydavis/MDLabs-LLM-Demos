@@ -25,7 +25,7 @@ Embark on these fantastic learning adventures! 🗺️
 
 #### Ollama
 
-1. **Automation Test Generation** [View](dotnet/src/Ollama-SemanticKernel-AutomationTestGeneration/README.md)
+1. **Playwright Automation Test Generation** [View](dotnet/src/Ollama-SemanticKernel-AutomationTestGeneration/README.md)
    - Generate C# Playwright Page Object Models for use with your automation test suite using natural language (English).
 
 #### OpenAI
